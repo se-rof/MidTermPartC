@@ -22,11 +22,16 @@ public class TestUserprofile {
         
         System.out.print("Enter Name: ");
         String userName = input.nextLine();
-        
+        user.setUserID(userName);
         
         System.out.println("List of genres: Comedy, Drama, Action, Mystery");
         System.out.print("Favourite Genre: ");
         String userGenre = input.nextLine();
+        user.setGenre(userGenre);
+        
+        System.out.println("User Profile has been created: ");
+        System.out.printf("Name: ", user.getUserID());
+        System.out.printf("Favourite Genre: ", user.getGenre());
     }
     
 }
