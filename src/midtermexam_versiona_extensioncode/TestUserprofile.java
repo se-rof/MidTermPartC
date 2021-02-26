@@ -18,7 +18,7 @@ public class TestUserprofile {
      */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        UserProfile userID = new UserProfile();
+        UserProfile user = new UserProfile();
         
         System.out.print("Enter Name: ");
         String userName = input.nextLine();
